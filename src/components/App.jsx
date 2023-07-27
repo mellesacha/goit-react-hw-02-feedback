@@ -21,11 +21,11 @@ export class App extends Component {
 
     };
 
-    countTotalFeedback (good, neutral, bad) {
+    countTotalFeedback = (good, neutral, bad) => {
         return (good + neutral + bad)
     };
 
-    countPositiveFeedbackPercentage(good, total) {
+    countPositiveFeedbackPercentage = (good, total) => {
         if(!good) {return}
         return (Math.round((good / total) * 100))
     }
