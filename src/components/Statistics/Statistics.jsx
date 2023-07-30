@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { StatisticsList, Counter, CounterItem, Span} from "./Statistics.styled"
+import { StatisticsList, CounterItem} from "./Statistics.styled"
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
     return (
